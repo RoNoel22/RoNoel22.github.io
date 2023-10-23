@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat&family=Overpass:ital,wght@1,200&family=Roboto+Slab&display=swap');
+
+
+body{
+    background-color: #FFD1DC;
+}
+
+
+ h1, h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+ }
+ 
+.intro{
+    padding-top: 2%;    
+    padding-bottom: 2%;
+    -webkit-text-stroke: 2px;
+    color: rgb(204, 94, 131); 
+}
+ 
+
+img{
+     flex: 50%;
+     width: 100%;
+     height: 100%;
+     padding: 2rem;
+     float: left;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.contenido_principal{
+    display: flex; 
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 10rem;
+    margin-top: 0 auto;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    color: beige;
+    padding-top: 15px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.texto{
+    flex: 50%;
+}
+
+.menu{
+    text-align: center;
+    padding: 20px ;
+    background-color: pink;
+    font-size: 20px;
+    padding-top: 1%;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*Media Querie para pantallas de celulares y tablets*/
+@media (max-width: 800px) {
+    .contenido_principal {
+        padding: 10%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 800px) {
+    .contenido{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        gap: 2rem;
+        justify-content:stretch;  
+        max-width: 120rem;
+      }
+}
+
+@media (max-width: 800px) {
+    .contenido{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        max-width: 40rem;
+    }
+    .producto-imagen{
+        width: 40rem;
+        height: 40rem;
+        position:relative;
+        size: 5rem;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content:space-evenly;   
+}
+
+nav a{
+    text-decoration: none;
+    color: lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/***********************************PRODUCTOS******************************************/
+
+.intro-productos{
+    padding-top: 2%;    
+    padding-bottom: 2%;
+    -webkit-text-stroke: 2px;
+    background-image: url(/img/almohadones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    justify-content: center;
+}
+.contenido-productos    {
+    background-color: rgb(255, 208, 215);
+    padding: 2rem;
+}
+
+.contenido{
+    max-width: 120rem;
+    text-align: center;
+}
+
+
+.producto-imagen
+ {
+    display: flex;
+    border:black;
+    border-width: 2rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+.titulo-secundario{
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.buttons{
+    gap: 2rem;
+}
+
+.button{
+    border: 1px solid violet; 
+    padding: 10px; 
+    background-color: lightpink;
+    color: #ffffff;
+    text-decoration: none; 
+    font-family: 'Cabin', sans-serif;
+    border-radius: 50px; 
+}
