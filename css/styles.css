@@ -1,25 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat&family=Overpass:ital,wght@1,200&family=Roboto+Slab&display=swap');
 
 
-body{
+body{ /*estilo del body*/
     background-color: #FFD1DC;
 }
 
 
- h1, h2{
+ h1, h2{ /*estilo de titulos h1 y h2*/
     text-align: center;
     font-family: 'Montserrat', sans-serif;
  }
  
-.intro{
+.intro{ /*estilo de la seccion intro*/
     padding-top: 2%;    
     padding-bottom: 2%;
     -webkit-text-stroke: 2px;
     color: rgb(204, 94, 131); 
 }
  
-
-img{
+img{ /*estilo de la seccion de imagen*/
      flex: 50%;
      width: 100%;
      height: 100%;
@@ -27,14 +26,14 @@ img{
      float: left;
 }
 
-p{
+p{ /*estilo de parrafo*/
     font-size: 1.5rem;
     line-height: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 
-.contenido_principal{
+.contenido_principal{ /*estilo del contenido principal*/
     display: flex; 
     line-height: 50px;
     text-align: center;
@@ -44,7 +43,7 @@ p{
     justify-content: center;
 }
 
-footer{
+footer{ /*estilo del pie de pagina*/
     text-align: center;
     color: beige;
     padding-top: 15px;
@@ -52,11 +51,11 @@ footer{
     padding: 10px;
 }
 
-.texto{
+.texto{ /*estilo del texto*/
     flex: 50%;
 }
 
-.menu{
+.menu{ /*estilo del menu*/
     text-align: center;
     padding: 20px ;
     background-color: pink;
@@ -102,20 +101,24 @@ footer{
     }
 }
 
-nav{
+nav{ /*estilo de la navegacion*/
     display: flex;
     justify-content:space-evenly;   
 }
 
-nav a{
+nav a{ /*estilo de enlaces de navegacion*/
     text-decoration: none;
     color: lightcoral;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+nav a:hover{ /*animacion hover a enlaces de navegacion*/
+    color: black;
+}
+
 /***********************************PRODUCTOS******************************************/
 
-.intro-productos{
+.intro-productos{ /*seccion de introduccion pagina productos*/
     padding-top: 2%;    
     padding-bottom: 2%;
     -webkit-text-stroke: 2px;
@@ -125,18 +128,19 @@ nav a{
     padding: 5%;
     justify-content: center;
 }
-.contenido-productos    {
+
+.contenido-productos{ /*seccion de contenido productos*/
     background-color: rgb(255, 208, 215);
     padding: 2rem;
 }
 
-.contenido{
+.contenido{ /*seccion de contenido*/
     max-width: 120rem;
     text-align: center;
 }
 
 
-.producto-imagen
+.producto-imagen /*estilo de la imagen del producto*/
  {
     display: flex;
     border:black;
@@ -145,16 +149,16 @@ nav a{
     height: 25rem;
 }
 
-.titulo-secundario{
+.titulo-secundario{ /*estilo del titulo secundario*/
     font-family: 'Cabin', sans-serif;
 
 }
 
-.buttons{
+.buttons{ /* estilo buttons, contenedor de botones*/
     gap: 2rem;
 }
 
-.button{
+.button{ /*estilo del boton*/
     border: 1px solid violet; 
     padding: 10px; 
     background-color: lightpink;
@@ -163,3 +167,5 @@ nav a{
     font-family: 'Cabin', sans-serif;
     border-radius: 50px; 
 }
+
+
