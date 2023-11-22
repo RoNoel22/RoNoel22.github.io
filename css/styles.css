@@ -167,5 +167,55 @@ nav a:hover{ /*animacion hover a enlaces de navegacion*/
     font-family: 'Cabin', sans-serif;
     border-radius: 50px; 
 }
+   
+
+             /*index*/
+.almohadon {
+    margin: 4rem;
+    
+}
+
+@media (min-width: 768px) {
+    .almohadon {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.almohadon:last-of-type {
+   border: none;
+}
+
+.almohadon__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.almohadon__info {
+    font-size: medium;
+}
+
+.almohadon__label,
+.almohadon__info {
+    font-size: 25px;
+    max-width: 30rem;
+    margin: 3rem;
+    color: rgb(29, 28, 28);
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.almohadon__descripcion{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+   
 
 
